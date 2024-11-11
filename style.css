@@ -146,3 +146,18 @@ iframe{
   background-size: contain;
   background-repeat: repeat;
 }
+
+video{
+  z-index: 0;
+  width: 60%;
+  height: auto;
+}
+
+#video-container{
+  height: 700px;
+  align-items: center;
+}
+
+#video-container::before{
+  height: 700px;
+}
